@@ -3,7 +3,8 @@
 }
 
 header {
-  background-color: grey;
+  background-color: blueviolet;
+  color: white;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -22,26 +23,45 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   background-color: white;
-  position: relative;
-  margin: 0px;
-  top: 50px;
+  margin: 60px 0px 60px 0px;
   font-size: 26px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgray;
-  width: 100%;
-  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  margin: auto;
+  width: 80%;
+  margin: 30px;
   padding: 25px;
 }
 
-.bookmark {
+.bookmark-button {
   position: relative;
-  top: 0px;
+  top: -40px;
+  left: 200px;
+}
+
+.question {
+  margin: auto;
+}
+
+.answer-button {
+  margin: auto;
+}
+
+.tagcontainer {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.tag {
+  background-color: rgb(182, 182, 182);
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
 }
 
 nav {
@@ -53,11 +73,12 @@ nav {
 
 .nav-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
 }
 
 .nav-list a {
   text-decoration: none;
   color: white;
+  background-color: ;
 }
