@@ -19,7 +19,7 @@ body {
 main {
   display: flex;
   justify-content: center;
-  flex-wrap; wrap;
+  flex-wrap: wrap;
   background-color: green;
   position: relative;
   margin: 0px;
