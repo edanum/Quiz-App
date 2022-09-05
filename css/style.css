@@ -27,7 +27,7 @@ main {
   font-size: 26px;
 }
 
-card {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
