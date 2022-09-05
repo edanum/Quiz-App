@@ -11,6 +11,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 50px;
+  z-index: 1;
 }
 body {
   margin: 0px;
@@ -20,7 +21,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: green;
+  background-color: white;
   position: relative;
   margin: 0px;
   top: 50px;
@@ -32,9 +33,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: lightgray;
   width: 100%;
-  margin: 40px;
+  margin: 20px;
+  padding: 25px;
+}
+
+.bookmark {
+  position: relative;
+  top: 0px;
 }
 
 nav {
@@ -42,6 +49,15 @@ nav {
   position: fixed;
   bottom: 0px;
   width: 100%;
+}
+
+.nav-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
 }
