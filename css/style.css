@@ -38,13 +38,15 @@ main {
 }
 
 .bookmark-button {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  top: -40px;
-  left: 200px;
+  top: -30px;
 }
 
 .question {
   margin: auto;
+  text-align: center;
 }
 
 .answer-button {
