@@ -1,98 +1,10 @@
-* {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+@import url(../components/card.css);
+@import url(../components/header.css);
+@import url(../components/navigation.css);
+@import url(../components/profile.css);
+@import url(./global.css);
 
-header {
-  background-color: rgb(41, 104, 166);
-  color: white;
-  position: fixed;
-  top: 0px;
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-body {
-  margin: 0px;
-}
 
-main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: white;
-  margin: 60px 0px 60px 0px;
-  font-size: 26px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: rgb(230, 230, 230);
-  margin: auto;
-  width: 80%;
-  margin: 30px;
-  padding: 50px 50px 25px 50px;
-  border-radius: 10px;
-}
-
-.bookmark-button {
-  position: absolute;
-  top: -25px;
-  right: 20px;
-  width: 80px;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.question {
-  margin: auto;
-  text-align: center;
-}
-
-.answer-button {
-  width: 140px;
-  height: 50px;
-  margin: 20px auto 20px auto;
-}
-
-.tagcontainer {
-  display: flex;
-  gap: 5px;
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-.tag {
-  background-color: rgb(182, 182, 182);
-  border-radius: 8px;
-  padding: 5px 10px 5px 10px;
-}
-
-nav {
-  background-color: rgb(41, 104, 166);
-  position: fixed;
-  bottom: 0px;
-
-  width: 100%;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  padding: 20px 15px;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: white;
-}
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
@@ -100,74 +12,14 @@ nav {
   font-size: 35px !important;
 }
 
-.bookmark-button .material-symbols-outlined {
+.card__bookmark-button .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   color: rgb(0, 0, 0);
   font-size: 50px !important;
 }
 
-.marked .bookmark-button .material-symbols-outlined {
+.marked .card__bookmark-button .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
   color: rgb(41, 104, 166);
   font-size: 50px !important;
-}
-
-.active {
-  color: white;
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-.profileheader {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 40px 40px 40px 40px;
-  gap: 60px;
-}
-
-.profilepic {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.aboutme {
-  margin: 20px 40px 20px 40px;
-}
-
-.description {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: rgb(239, 234, 234);
-  padding: 20px;
-  margin-top: 10px;
-  border-radius: 10px;
-}
-.counter {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.counterelement {
-  display: flex;
-  align-items: center;
-  background-color: rgb(239, 234, 234);
-  gap: 10px;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.settings {
- 
-
-}
-
-.settings-toggles {
-display: flex;
-justify-content: space-between;
-
 }

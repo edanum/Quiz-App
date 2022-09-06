@@ -1,0 +1,23 @@
+nav {
+  background-color: rgb(41, 104, 166);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: white;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}

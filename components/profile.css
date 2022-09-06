@@ -1,0 +1,54 @@
+.profileheader {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 40px 40px 40px;
+  gap: 60px;
+}
+
+.profilepic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.aboutme {
+  margin: 20px 40px 20px 40px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(239, 234, 234);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.counterelement {
+  display: flex;
+  align-items: center;
+  background-color: rgb(239, 234, 234);
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.settings {
+ 
+
+}
+
+.settings-toggles {
+display: flex;
+justify-content: flex-start;
+
+}
