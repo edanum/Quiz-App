@@ -1,5 +1,7 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -30,6 +32,7 @@ main {
 .card {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: rgb(230, 230, 230);
   margin: auto;
   width: 80%;
@@ -38,11 +41,13 @@ main {
 }
 
 .bookmark-button {
-  position: relative;
-  top: -34px;
+  position: absolute;
+  top: -25px;
+  right: 20px;
   width: 80px;
+  background-color: transparent;
+  border-color: transparent;
 
-  /* Hier brauche ich unbedingt Hilfe: die Position lässt sich nicht wirklich einstellen */
 }
 
 .question {
@@ -73,6 +78,7 @@ nav {
   background-color: blueviolet;
   position: fixed;
   bottom: 0px;
+
   width: 100%;
 }
 
@@ -80,9 +86,33 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  padding: 20px 15px;
 }
 
 .nav-list a {
   text-decoration: none;
   color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: white;
+  font-size: 35px !important;
+}
+
+.bookmark-button .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: rgb(0, 0, 0);
+  font-size: 50px !important;
+}
+
+.marked .bookmark-button .material-symbols-outlined {
+ font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: rgb(0, 0, 0);
+  font-size: 50px !important;
+  }
+  
+
+.active {
+  color:yellow;
 }
