@@ -2,24 +2,7 @@
 @import url(../components/header.css);
 @import url(../components/navigation.css);
 @import url(../components/profile.css);
+@import url(../components/icons.css);
 @import url(./global.css);
 
 
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  color: white;
-  font-size: 35px !important;
-}
-
-.card__bookmark-button .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  color: rgb(0, 0, 0);
-  font-size: 50px !important;
-}
-
-.marked .card__bookmark-button .material-symbols-outlined {
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
-  color: rgb(41, 104, 166);
-  font-size: 50px !important;
-}
