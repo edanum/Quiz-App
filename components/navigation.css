@@ -17,3 +17,9 @@ nav {
   color: white;
 }
 
+li a:hover {
+  background-color: blue;
+  transition: 0.4s ease-in-out;
+}
+
+

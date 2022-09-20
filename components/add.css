@@ -1,0 +1,11 @@
+.textcounter{
+font-size: 14px;
+font-style: italic;
+}
+
+.form{
+    display:flex;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 400px;
+}

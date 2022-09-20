@@ -25,26 +25,6 @@ console.log("Test");
 
 
 
-// Add Funktion Form
-
-
-const form = document.querySelector('[data-js="form"]');
-const formQuestion = document.querySelector('[data-js="form-question"]');
-const formAnswer = document.querySelector('[data-js="form-answer"]');
-const formTag = document.querySelector('[data-js="form-tag"]');
-const formSubmit = document.querySelector('[data-js="form-submit"]');
-
-
-form.addEventListener('submit', event => {
-    event.preventDefault(); 
-    console.log("Submit Eventlistener funktioniert");
-
-})
-
-console.log("Läuft bis zum Ende");
-
-
-
 
 
 

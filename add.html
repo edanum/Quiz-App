@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
-    <script src="./js/index.js" defer></script>
+    <script src="./js/add.js" defer></script>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
     </header>
 
     <main>
-      <form data-js="form">
+      <form data-js="form" class="form">
         <label for="question">Your question:</label>
         <textarea
           name="question"
@@ -29,15 +29,20 @@
           rows="4"
           cols="20"
           data-js="form-question"
+          maxlength="150"
         ></textarea>
+
+        <p data-js="textlength-question" class="textcounter"></p>
         <label for="question">Your answer:</label>
         <textarea
-          name="question"
-          id="question"
+          name="answer"
+          id="answer"
           rows="4"
           cols="20"
           data-js="form-answer"
+          maxlength="150"
         ></textarea>
+        <p data-js="textlength-answer" class="textcounter"></p>
         <label for="tag">Tag:</label>
         <textarea
           name="tag"
